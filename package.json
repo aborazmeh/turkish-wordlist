@@ -1,0 +1,34 @@
+{
+  "name": "turkish-wordlist",
+  "version": "1.0.0",
+  "description": "Turkish wordlist generated from Wiktionary (VikiSözlük)",
+  "files": ["wordlist.txt"],
+  "scripts": {
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
+    "build": "node src/update.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "prettier": {
+    "singleQuote": false,
+    "printWidth": 120,
+    "tabWidth": 2
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aborazmeh/turkish-wordlist.git"
+  },
+  "keywords": [
+    "turkish",
+    "wordlist"
+  ],
+  "author": "aborazmeh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aborazmeh/turkish-wordlist/issues"
+  },
+  "homepage": "https://github.com/aborazmeh/turkish-wordlist#readme",
+  "devDependencies": {
+    "prettier": "^3.3.2",
+    "axios": "^1.7.2"
+  }
+}
