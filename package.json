@@ -6,7 +6,8 @@
   "scripts": {
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
     "build": "node src/update.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublish": "npm run build",
+    "prepack": "npm run build"
   },
   "prettier": {
     "singleQuote": false,
