@@ -1,8 +1,10 @@
 {
   "name": "turkish-wordlist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Turkish wordlist generated from Wiktionary (VikiSözlük)",
-  "files": ["wordlist.txt"],
+  "files": [
+    "wordlist.txt"
+  ],
   "scripts": {
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
     "build": "node src/update.js",
